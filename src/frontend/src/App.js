@@ -112,6 +112,11 @@ function App() {
       title: 'Contact Phone No.',
       dataIndex: 'contactPhoneNumber',
       key: 'contactPhoneNumber',
+    },
+    {
+      title: 'Date of birth.',
+      dataIndex: 'dateOfBirth',
+      key: 'dateOfBirth',
     }, {
       title: 'Action',
       dataIndex: 'action',
