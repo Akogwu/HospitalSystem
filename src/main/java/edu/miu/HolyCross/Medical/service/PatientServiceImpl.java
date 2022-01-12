@@ -39,7 +39,7 @@ public class PatientServiceImpl implements PatientService{
     @Override
     public List<Patient> getOlderPatients() {
         return patientRepository.findAll()
-                .stream().filter( patient -> Period.between(patient.getDateOfBirth(), LocalDate.now()).getYears() > 3).collect(Collectors.toList());
+                .stream().filter( patient -> Period.between(patient.getDateOfBirth(), LocalDate.now()).getYears() > 59).collect(Collectors.toList());
     }
 
     @Override

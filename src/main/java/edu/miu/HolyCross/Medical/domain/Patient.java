@@ -25,4 +25,8 @@ public class Patient {
    private String emailAddress;
    private String contactPhoneNumber;
    private LocalDate dateOfBirth;
+
+   @Transient
+   private int age;
+
 }

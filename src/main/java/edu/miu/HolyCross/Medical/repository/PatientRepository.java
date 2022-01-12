@@ -9,5 +9,4 @@ import java.util.List;
 @Repository
 public interface PatientRepository extends CrudRepository<Patient,Long> {
     List<Patient> findAll();
-   //List<Patient> findAllByfullNamesAsc();
 }
